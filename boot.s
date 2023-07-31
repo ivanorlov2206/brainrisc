@@ -1,7 +1,7 @@
 .global _start
 .equ uart, 0x10000
-.equ bufsize, 256
-.equ com_max_len, 256
+.equ bufsize, 2047
+.equ com_max_len, 2047
 # pointer to command is in t5
 # current cell number is in t2
 
